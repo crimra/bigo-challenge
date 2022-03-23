@@ -1,0 +1,84 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body{
+font-family: sans-serif;
+color: gray;
+background-color: black;
+}
+
+.card{
+max-width: 500px;
+width: 100%;
+margin: 100px auto 0;
+background-color: rgb(22, 22, 37);
+border-radius: 20px;
+padding: 30px;
+}
+
+h1{
+color: white;
+padding: 20px 0;
+}
+
+.logo{
+background-color: rgb(34, 34, 46);
+padding: 15px;
+border-radius: 50% ;
+}
+
+.links{
+display: flex;
+justify-content: space-between;
+margin: 50px 0;
+}
+
+.links a{
+background-color: rgb(34, 34, 46);
+text-decoration: none;
+color: gray;
+font-size: 1.3rem;
+padding: 20px 27px;
+border-radius: 50%;
+transition: .5s;
+}
+
+.links a:hover{
+background-color: #F17526;
+}
+
+a.submit{
+text-decoration: none;
+display: block;
+text-align: center;
+background-color: #F17526;
+background-size: 100%;
+color: white;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-weight: 500;
+padding: 20px 0;
+border-radius: 50px;
+transition: .5s;
+}
+
+a.submit:hover{
+background-color: white;
+color: #F17526;
+}
+
+.second{
+    text-align: center;
+}
+
+p.click{
+    margin: 20px auto 5px auto;
+    padding: 10px;
+    width: fit-content;
+    background-color: rgb(34, 34, 46);
+    border-radius: 20px;
+    color: #F17526;
+}
